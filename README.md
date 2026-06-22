@@ -52,8 +52,7 @@ To run this application on your local computer, ensure you have installed:
 3. Install all required libraries by running the following command:
 
 ```bash
-
-&#x20;  pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 
