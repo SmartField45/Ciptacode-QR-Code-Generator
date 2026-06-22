@@ -101,16 +101,16 @@ logo_file = st.file_uploader(
 
 st.write("---")
 
-if url:
+if qr_data:
     # --- Make QR Code ---
     qr = qrcode.QRCode(
         version=5, error_correction=qrcode.constants.ERROR_CORRECT_H, box_size=box_size, border=4)
-    qr.add_data(url)
+    qr.add_data(qr_data)
     qr.make(fit=True)
 
     # --- Create Image ---
     img = qr.make_image(fill_color=fill_color,
-                        back_color=back_color, box_size=box_size).convert("RGBA")
+                        back_color=back_color).convert("RGBA")
 
     # --- Add Logo ---
     if logo_file is not None:
