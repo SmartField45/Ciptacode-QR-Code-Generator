@@ -5,7 +5,7 @@ from io import BytesIO
 import urllib.parse
 
 # --- Set Page Config ---
-image_name = r"C:\Users\ALFARABI SMART\Documents\Project\Python\QR Code Generator\CiptacodeQRCodeGenerator.png"
+image_name = r"CiptacodeQRCodeGenerator.png"
 image = Image.open(image_name)
 
 st.set_page_config(page_title="Ciptacode QR Code Generator",
