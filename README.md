@@ -62,7 +62,7 @@ pip install -r requirements.txt
 
 ## Current Version
 
-Version: 1.1.0
+Version: 1.0.0
 
 
 
