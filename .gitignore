@@ -1,0 +1,44 @@
+# --- VS Code & DevContainer ---
+.vscode/
+.devcontainer/
+
+# --- PyInstaller Outputs ---
+build/
+dist/
+*.spec
+
+# --- Python Cache & Files ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# --- Virtual Environment ---
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# --- Windows OS Garbage ---
+Thumbs.db
+db.db
+Desktop.ini
+$RECYCLE.BIN/
